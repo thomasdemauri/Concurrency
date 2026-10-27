@@ -1,0 +1,7 @@
+﻿services:
+  cinemawebapplication:
+    image: cinemawebapplication
+    build:
+      context: .
+      dockerfile: Dockerfile
+
